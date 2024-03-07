@@ -169,8 +169,8 @@
 }
 
 .cancer-content img {
-    max-width: 65%; 
-    max-height: 65%;
+    max-width: 50%; 
+    max-height: 50%;
     align-items: top;
     margin-bottom: 5%;
 }
@@ -186,13 +186,6 @@
     opacity: 0;
     transition: opacity 1.5s;
 }
-
-
-
-
-
-
-
 
 .progress-container {
     display: flex;
@@ -211,8 +204,6 @@
     align-items: center;
     text-align: center;
 }
-
-
 
 .loading-bar {
     width: 100%;
@@ -233,20 +224,20 @@
 }
 
 button {
-    background-color: #4CAF50; /* Green background */
-    border: none; /* Remove border */
-    color: white; /* White text */
-    padding: 15px 32px; /* Padding around text */
-    text-align: center; /* Center text */
-    text-decoration: none; /* Remove underline */
+    background-color: #4CAF50; 
+    border: none; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    cursor: pointer; /* Change cursor to pointer when hovering over button */
-    border-radius: 4px; /* Rounded corners */
-    transition: background-color 0.3s; /* Transition for hover effect */
+    cursor: pointer; 
+    border-radius: 4px; 
+    transition: background-color 0.3s; 
 }
 
 button:hover {
-    background-color: #45a049; /* Darker green background when hovering */
+    background-color: #45a049; 
 }
